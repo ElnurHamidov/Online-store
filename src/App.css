@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
 *{
   font-family: 'Montserrat', sans-serif;
 }
 
 .wrapper{
-  background: url('./images/background.jpg') center / cover no-repeat scroll;
+  /* background: url('./images/background1.jpg') center / cover no-repeat scroll; */
   min-height: 755px;
   display: flex;
   flex-direction: column;
@@ -45,5 +46,34 @@
 
 .carousel{
   box-shadow: 0 0 50px #000;
+}
+
+.card-btn{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cards{
+  padding-top: 30px;
+}
+
+.cards .h2{
+  color: #333;
+  /* letter-spacing: 5px; */
+  font-family: 'Kanit', sans-serif;
+}
+
+.cards-row{
+  display: flex;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 2%;
+  margin-top: 2%;
 }
 
