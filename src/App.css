@@ -11,9 +11,6 @@
   flex-direction: column;
 }
 
-.header{
-  flex: 0 1 50px;
-}
 
 .main{
   flex: 1 1 auto;
@@ -37,7 +34,7 @@
 }
 
 .navbar{
-  background: rgba(0, 0, 0, .6);
+  background: rgba(0, 0, 0, .7);
   padding: 0px 10%;
 }
 
@@ -45,3 +42,8 @@
   width: 25px;
   height: 25px;
 }
+
+.carousel{
+  box-shadow: 0 0 50px #000;
+}
+
