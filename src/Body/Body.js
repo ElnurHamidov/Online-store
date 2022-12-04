@@ -1,12 +1,12 @@
 import Carousels from "./Carousel";
-import Cards from './Cards';
+import Nav from "./Nav";
 
 export default function Body(){
 
     return(
         <div className="main">
             <Carousels />
-            <Cards />
+            <Nav />
         </div>
     );
 }
