@@ -1,4 +1,4 @@
-import c1 from '../images/card6.webp';
+import c1 from '../../images/card6.webp';
 
 export default function Card6(){
 

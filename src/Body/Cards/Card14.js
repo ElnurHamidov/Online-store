@@ -1,4 +1,4 @@
-import c1 from '../images/card14.jpg';
+import c1 from '../../images/card14.jpg';
 
 export default function Card14(){
 

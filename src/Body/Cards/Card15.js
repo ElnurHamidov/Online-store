@@ -1,6 +1,6 @@
-import c1 from '../images/card1.jpg';
+import c1 from '../../images/card15.jpg';
 
-export default function Card1(){
+export default function Card15(){
 
 
     return(
@@ -11,10 +11,10 @@ export default function Card1(){
             <div>
                 <div className="card-body" style={{fontWeight: 'bold'}}>
                     <div style={{display: 'flex' , justifyContent: 'space-between'}}>
-                        <h5 className="card-title fw-bold">Pot</h5>
-                        <p className='card-text'><span style={{textDecoration: 'line-through', color: 'red'}}>30$</span> <span>19$</span></p>
+                        <h5 className="card-title fw-bold">Aspirator</h5>
+                        <p className='card-text'>450$</p>
                     </div>
-                    <p className="card-text">This modern pot will easy fit your home design</p>
+                    <p className="card-text">Have in the store</p>
                     <a href="#" className="btn btn-warning card-btn">Buy</a>
                 </div>
             </div>
