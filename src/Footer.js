@@ -6,7 +6,7 @@ export default function Footer(){
 
 
     return(
-        <div className="footer" id="contacts">
+        <div className="footer" >
             <footer className="text-center text-white" style={{backgroundColor: "rgba(0, 0, 0, .7)", color: "#fff"}}>
 
             <div className="container pt-4">
