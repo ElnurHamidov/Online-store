@@ -2,6 +2,7 @@ import Header from '../Header/Header';
 import Carousels from "./Carousel";
 import {Link} from 'react-router-dom';
 import About from './About';
+import { FaShoppingCart } from "react-icons/fa";
 
 export default function Main1(){
 
@@ -22,6 +23,7 @@ export default function Main1(){
                 </li>
             </ul>
             <About />
+            <Link to="/basket"><FaShoppingCart className='icon-fix'/></Link>
             
         </div>
         </div>

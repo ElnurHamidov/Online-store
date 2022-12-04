@@ -1,8 +1,7 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
-import { AiFillBackward } from "react-icons/ai";
 import { VscAccount } from "react-icons/vsc";
 import {useFormik} from 'formik';
+import Title from './Title';
 
 export default function Login(){
 
@@ -42,10 +41,7 @@ export default function Login(){
             <div className="login">
                 <div className="header">
                     <div className="container">
-                    <nav className="navbar navbar-light justify-content-left fixed-top">
-                            <p style={{color: "#fff"}} className="navbar-brand header-title">We work for your comfort</p>                            
-                            <Link to="/"><button className="btn btn-warning header-btn" type="button">Back <AiFillBackward /></button></Link>
-                    </nav>
+                    <Title />
                     <form action='#' method="post" name="form" className='form' onSubmit={formik.handleSubmit} ref={id} onReset={formik.handleReset}>
                         <div className="h2"><VscAccount className='icon-login' /></div>
                         <div className="form-group">

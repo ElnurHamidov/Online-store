@@ -143,3 +143,22 @@
 small{
   color: rgba(255, 0, 0, .6)
 }
+
+.icon-fix{
+  position: fixed;
+  z-index: 3;
+  left: 92%;
+  top: 85%;
+  height: 50px;
+  width: 50px;
+  color: red;
+  font-weight: bold;
+  text-shadow: 0 0 5px #000;
+}
+
+.icon-basket{
+  height: 45px;
+  width: 45px;
+  color: red;
+  font-weight: bold;
+}
