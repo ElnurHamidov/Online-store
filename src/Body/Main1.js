@@ -24,8 +24,7 @@ export default function Main1(){
             </ul>
             <About />
             <Link to="/basket"><FaShoppingCart className='icon-fix'/></Link>
-            
-        </div>
+            </div>
         </div>
     );
 }

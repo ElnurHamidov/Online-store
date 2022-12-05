@@ -90,6 +90,7 @@ export default function Registration(){
     return(
         <div className="main">
             <div className="registration">
+                    <div className="header">
                     <div className="container">
                     <Title />
                     <form action='#' method="post" name="form" className='form' onSubmit={formik.handleSubmit} ref={id} onReset={formik.handleReset}>
@@ -150,6 +151,7 @@ export default function Registration(){
                             </div>
                             <button type="submit" className="btn btn-secondary">Registration</button>
                     </form>
+                    </div>
                     </div>
                 </div>           
             </div>

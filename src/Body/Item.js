@@ -10,7 +10,7 @@ export default function Item(props){
     return(
         <div className="item">
             <div>   
-                <h4><span className="fw-bold" >Product:</span> {props.value.name}</h4>
+                <p><span className="fw-bold" >Product:</span> {props.value.name}</p>
                 <p><span className="fw-bold" >About: </span>{props.value.description}</p>
                 <p><span className="fw-bold" >Price: </span>{props.value.price} $</p>
                 <p><span className="fw-bold" >Count: </span>{props.value.count}</p>

@@ -5,6 +5,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+
 .wrapper{
   background: #F2F3E3;
   min-height: 755px;
@@ -71,7 +72,7 @@
 .card{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-left: 2%;
   margin-top: 2%;
 }
@@ -168,7 +169,19 @@ small{
   box-shadow: 0 0 5px grey;
   padding: 2%;
   width: 50%;
-  margin: 6% auto;
+  margin: 6% auto; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item div:first-child{
+  flex: 1 1 20%;
+}
+
+.item div:last-child{
+  flex: 0 0 20%;
+  text-align: center;
 }
 
 
@@ -184,11 +197,6 @@ small{
   opacity: 0.5;
 }
 
-.item{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 .total{
   background-color: red;
@@ -198,4 +206,247 @@ small{
   text-align: center;
   width: 30%;
   margin: 2% auto;
+}
+
+@media (min-width: 2500px){
+  .wrapper{
+    min-height: 1075px;
+  }
+  .form{
+    margin: 15% auto;
+  }
+
+  .item{
+    width: 80%;
+    font-size: 25px;
+  }
+
+  .total{
+    width: 50%;
+    margin: 2% auto;
+    font-size: 25px;
+  }
+
+  .icon-fix{
+    height: 70px;
+    width: 70px;
+  }
+}
+
+@media (max-width: 1024px){
+  .header .header-btn{
+    font-size: 13px;
+  }
+  .header-title{
+    font-size: 25px;
+  }
+
+  .icon-fix{
+    height: 40px;
+    width: 40px;
+  }
+  .card{
+    margin-left: 1%;
+  }
+
+  .item{
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px){
+  .header .header-btn{
+    font-size: 10px;
+    width: 100px;
+  }
+
+  .header-title{
+    font-size: 20px;
+  }
+
+  .card{
+    margin-left: 4%;
+  }
+
+  .form{
+    width: 80%; 
+    font-size: 15px;
+  }
+
+  .wrapper{
+    min-height: 519px;
+  }
+
+  .item{
+    width: 85%;
+    font-size: 15px;
+    margin: 10% auto;
+  }
+
+}
+
+@media (max-width: 450px){
+
+  .wrapper{
+    min-height: 593px;
+  }
+
+  .header-title{
+    font-size: 15px;
+  }
+  .navbar{
+    padding: 2%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+
+  .header .header-btn{
+    width: 90px;
+    margin-left: 2px;
+    font-size: 8px;
+  }
+
+  .header .btn1{
+    width: 70px;
+  }
+
+  .main{
+    font-size: 13px;
+  }
+
+  .about p{
+    margin-top: 20px;
+  }
+
+  .nav-item a{
+    font-size: 15px;
+  }
+
+  .icon{
+    width: 15px;
+  }
+  .card{
+    margin: 5% auto;
+    margin-top: 5%;
+  }
+
+  .form{
+    width: 95%;
+    font-size: 10px;
+    margin-top: 20%;
+  }
+
+  .form input{
+    font-size: 10px;
+  }
+
+  .form button{
+    font-size: 10px;
+  }
+
+  .forms a{
+    padding-left: 10%;
+  }
+
+  .icon-fix{
+    width: 25px;
+    height: 25px;
+    left:87%;
+  }
+
+  .item{
+    width: 90%;
+    font-size: 10px;
+  }
+
+  .item .icon-bt{
+    width: 15px;
+    height: 15px;
+  }
+
+  .total{
+    padding: 2px 20px;
+    width: 80%;
+  }
+
+  .basket{
+    padding-top: 13%;
+  }
+
+  .basket .forms .header-title{
+    font-size: 10px;
+  }
+  .basket .forms .btn{
+    font-size: 10px;
+    width: 150px;
+    margin-left: 50px;
+    padding: 1px;
+  }
+
+
+}
+
+@media (max-width: 400px){
+  .icon-fix{
+    left: 90%;
+  }
+
+  .item {
+    width: 95%;
+    font-size: 8px;
+  }
+
+  .basket .forms .header-btn{
+    width: 110px;
+  }
+
+  .basket .forms a{
+    margin-left: 30px;
+  }
+
+  .header-title{
+    font-size: 12px;
+  }
+
+  .main{
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 350px){
+  .header-title{
+    font-size: 10px;
+  }
+  .header .header-btn{
+    margin-left: 1px;
+  }
+  
+  .header .header-btn{
+    margin-left: 1px;
+    width: 85px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 2px;
+  }
+
+  .header .btn1{
+    width: 60px;
+  }
+
+  .header .navbar a{
+    margin-left: 2px;
+  }
+
+  .nav .nav-item a{
+    font-size: 12px;
+  }
+
+  .basket .forms .header-btn{
+    width: 80px;
+  }
+
+  .basket .forms a{
+    margin-left: 20px;
+  }
 }
