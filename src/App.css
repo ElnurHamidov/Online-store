@@ -162,3 +162,40 @@ small{
   color: red;
   font-weight: bold;
 }
+
+.item{
+  border: 1px solid red;
+  box-shadow: 0 0 5px grey;
+  padding: 2%;
+  width: 50%;
+  margin: 6% auto;
+}
+
+
+.icon-bt{
+  width: 25px;
+  height: 25px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.icon-bt:hover{
+  opacity: 0.5;
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total{
+  background-color: red;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 20px;
+  text-align: center;
+  width: 30%;
+  margin: 2% auto;
+}

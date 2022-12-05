@@ -1,7 +1,10 @@
 import c1 from '../../images/card14.jpg';
+import {useContext} from 'react';
+import Context from "../../Context";
 
 export default function Card14(){
 
+    const obj=useContext(Context);
 
     return(
         <div className="card" style={{width: "18rem"}}>
@@ -15,7 +18,16 @@ export default function Card14(){
                         <p className='card-text'>400$</p>
                     </div>
                     <p className="card-text">5000 battery power</p>
-                    <a href="#" className="btn btn-warning card-btn">Buy</a>
+                    <a className="btn btn-warning card-btn" onClick={()=>{
+                       const confirm=window.confirm('Add to storage?');
+                       if(confirm) obj.onAdd({
+                            id: 14,
+                            name: 'Mixer',
+                            description: '5000 battery power',
+                            price: '400',
+                            count: 1,
+                        })
+                    }}>Buy</a>
                 </div>
             </div>
         </div>

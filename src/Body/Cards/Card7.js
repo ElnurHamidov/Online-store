@@ -1,7 +1,10 @@
 import c1 from '../../images/plate.jpg';
+import {useContext} from 'react';
+import Context from "../../Context";
 
 export default function Card7(){
 
+    const obj=useContext(Context);
 
     return(
         
@@ -16,7 +19,16 @@ export default function Card7(){
                             <p className='card-text'><span style={{textDecoration: 'line-through', color: 'red'}}>10$</span> <span>7.99$</span></p>
                         </div>
                         <p className="card-text">Have in the store</p>
-                        <a href="#" className="btn btn-warning card-btn">Buy</a>
+                        <a className="btn btn-warning card-btn" onClick={()=>{
+                       const confirm=window.confirm('Add to storage?');
+                       if(confirm) obj.onAdd({
+                            id: 7,
+                            name: 'Plate',
+                            description: 'Have in the store',
+                            price: '7.99',
+                            count: 1,
+                        })
+                    }}>Buy</a>
                     </div>
                 </div>
             </div>

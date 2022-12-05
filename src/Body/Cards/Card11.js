@@ -1,7 +1,10 @@
 import c1 from '../../images/card11.webp';
+import {useContext} from 'react';
+import Context from "../../Context";
 
 export default function Card11(){
 
+    const obj=useContext(Context);
 
     return(
         <div className="card" style={{width: "18rem"}}>
@@ -15,7 +18,16 @@ export default function Card11(){
                         <p className='card-text'>200$</p>
                     </div>
                     <p className="card-text">250W Fan Electro Bosh</p>
-                    <a href="#" className="btn btn-warning card-btn">Buy</a>
+                    <a className="btn btn-warning card-btn" onClick={()=>{
+                       const confirm=window.confirm('Add to storage?');
+                       if(confirm) obj.onAdd({
+                            id: 11,
+                            name: 'Fan',
+                            description: '250W Fan Electro Bosh',
+                            price: '200',
+                            count: 1,
+                        })
+                    }}>Buy</a>
                 </div>
             </div>
         </div>

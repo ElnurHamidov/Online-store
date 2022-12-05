@@ -1,7 +1,10 @@
 import c1 from '../../images/card16.webp';
+import {useContext} from 'react';
+import Context from "../../Context";
 
 export default function Card16(){
 
+    const obj=useContext(Context);
 
     return(
         <div className="card" style={{width: "18rem"}}>
@@ -15,7 +18,16 @@ export default function Card16(){
                         <p className='card-text'>1550$</p>
                     </div>
                     <p className="card-text">New fridge designed by Bosh</p>
-                    <a href="#" className="btn btn-warning card-btn">Buy</a>
+                    <a className="btn btn-warning card-btn" onClick={()=>{
+                       const confirm=window.confirm('Add to storage?');
+                       if(confirm) obj.onAdd({
+                            id: 16,
+                            name: 'Fridge',
+                            description: 'New fridge designed by Bosh',
+                            price: '1550',
+                            count: 1,
+                        })
+                    }}>Buy</a>
                 </div>
             </div>
         </div>
