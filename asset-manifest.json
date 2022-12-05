@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Online-store/static/css/main.335b1b1a.css",
+    "main.js": "/Online-store/static/js/main.5c41ab4b.js",
+    "static/js/787.23170c61.chunk.js": "/Online-store/static/js/787.23170c61.chunk.js",
+    "static/media/slide1.jpg": "/Online-store/static/media/slide1.08b5dd505abc0c98cdd7.jpg",
+    "static/media/card17.jpg": "/Online-store/static/media/card17.a6115fceffc201452065.jpg",
+    "static/media/slide2.jpeg": "/Online-store/static/media/slide2.8c13a402598927bdaed8.jpeg",
+    "static/media/slide5.jpg": "/Online-store/static/media/slide5.25e4288bcc88c58b541f.jpg",
+    "static/media/card1.jpg": "/Online-store/static/media/card1.70ccc0cf581b4d7d0f55.jpg",
+    "static/media/card5.jpeg": "/Online-store/static/media/card5.8ec099ea6972beecd82d.jpeg",
+    "static/media/clock.webp": "/Online-store/static/media/clock.f930bfd62d126c1059b9.webp",
+    "static/media/card12.jpg": "/Online-store/static/media/card12.6fcb6b1e150e6e316cb1.jpg",
+    "static/media/card14.jpg": "/Online-store/static/media/card14.b87a11f82aa6098e1740.jpg",
+    "static/media/card3.jpg": "/Online-store/static/media/card3.1e6281615d36b09a6b97.jpg",
+    "static/media/card2.jpeg": "/Online-store/static/media/card2.7feb277b7945ca5818f8.jpeg",
+    "static/media/card6.webp": "/Online-store/static/media/card6.226b53f267f75d29caf0.webp",
+    "static/media/card9.jpg": "/Online-store/static/media/card9.7183bac76d0a75a49c72.jpg",
+    "static/media/card10.jpg": "/Online-store/static/media/card10.221bf34348c23bdfb624.jpg",
+    "static/media/plate.jpg": "/Online-store/static/media/plate.6421adc3d2c38e607ed1.jpg",
+    "static/media/card11.webp": "/Online-store/static/media/card11.3f389bdc2d0e5ad0c696.webp",
+    "static/media/card13.webp": "/Online-store/static/media/card13.e5a0d265da8403c15267.webp",
+    "static/media/card16.webp": "/Online-store/static/media/card16.b3590ea1486c6e9835c8.webp",
+    "index.html": "/Online-store/index.html",
+    "main.335b1b1a.css.map": "/Online-store/static/css/main.335b1b1a.css.map",
+    "main.5c41ab4b.js.map": "/Online-store/static/js/main.5c41ab4b.js.map",
+    "787.23170c61.chunk.js.map": "/Online-store/static/js/787.23170c61.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.335b1b1a.css",
+    "static/js/main.5c41ab4b.js"
+  ]
+}
