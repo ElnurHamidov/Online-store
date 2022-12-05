@@ -87,7 +87,7 @@ html{
 .card{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-left: 2%;
   margin-top: 2%;
 }
