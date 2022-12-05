@@ -255,6 +255,10 @@ small{
 }
 
 @media (max-width: 768px){
+
+  .wrapper{
+    min-height: 593px;
+  }
   .header .header-btn{
     font-size: 10px;
     width: 100px;
