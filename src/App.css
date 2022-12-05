@@ -181,28 +181,29 @@ small{
 
 .item{
   border: 1px solid red;
-  box-shadow: 0 0 5px grey;
+  box-shadow: 0 0 7px grey;
   padding: 2%;
   width: 50%;
   margin: 6% auto; 
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 10px;
 }
 
 .item div:first-child{
-  flex: 1 1 20%;
+  flex: 1 1 auto;
 }
 
 .item div:last-child{
-  flex: 0 0 20%;
+  flex: 0 0 25%;
   text-align: center;
 }
 
 
 .icon-bt{
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   color: #000;
   font-weight: bold;
   cursor: pointer;
@@ -304,8 +305,12 @@ small{
 
   .item{
     width: 85%;
-    font-size: 15px;
+    font-size: 17px;
     margin: 10% auto;
+  }
+
+  .basket{
+    margin-top: 15%;
   }
 
 }
@@ -349,7 +354,7 @@ small{
   }
 
   .icon{
-    width: 15px;
+    width: 17px;
   }
   .card{
     margin: 5% auto;
@@ -386,8 +391,8 @@ small{
   }
 
   .item .icon-bt{
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
   }
 
   .total{
