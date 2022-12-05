@@ -5,6 +5,21 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+body{
+  min-height: 100%;
+}
+
+.wrapper{
+  min-height: 100%;
+}
+
+html{
+  min-height: 100%;
+}
+
+#root{
+  min-height: 100%;
+}
 
 .wrapper{
   background: #F2F3E3;
@@ -254,6 +269,12 @@ small{
   }
 }
 
+@media (max-width: 757px){
+ .wrapper{
+  min-height: 593px;
+}
+}
+
 @media (max-width: 768px){
 
   .wrapper{
@@ -452,5 +473,11 @@ small{
 
   .basket .forms a{
     margin-left: 20px;
+  }
+}
+
+@media (min-height: 791){
+  .wrapper{
+    height: 791px;
   }
 }
