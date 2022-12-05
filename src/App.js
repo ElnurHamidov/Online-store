@@ -1,6 +1,6 @@
 import './App.css';
 import Footer from './Footer';
-import {HashRouter as Router, Routes, Route} from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 import Main1 from './Body/Main1';
 import Main2 from './Body/Main2';
 import Main3 from './Body/Main3';
@@ -105,7 +105,7 @@ function App() {
   return (
         <Context.Provider value={obj}>
           <div className="wrapper">
-            <Router>
+            {/* <Router> */}
                 <Routes>
                   <Route exact path="/" element={<Main1 />}/>
                   <Route path="/products" element={<Main2 />}/>
@@ -114,7 +114,7 @@ function App() {
                   <Route path="/login" element={<Login />}/>
                   <Route path="/basket" element={<Basket />} />
                 </Routes>
-            </Router>      
+            {/* </Router>       */}
             <Footer />
           </div>
         </Context.Provider>
