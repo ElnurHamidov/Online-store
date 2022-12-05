@@ -476,8 +476,8 @@ small{
   }
 }
 
-@media (min-height: 791){
+@media (min-height: 780px){
   .wrapper{
-    height: 791px;
+    min-height: 791px;
   }
 }
