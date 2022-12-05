@@ -1,6 +1,6 @@
 import './App.css';
 import Footer from './Footer';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import {HashRouter as Router, Routes, Route} from 'react-router-dom';
 import Main1 from './Body/Main1';
 import Main2 from './Body/Main2';
 import Main3 from './Body/Main3';
