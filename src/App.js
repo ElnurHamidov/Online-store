@@ -105,7 +105,7 @@ function App() {
   return (
         <Context.Provider value={obj}>
           <div className="wrapper">
-            {/* <Router> */}
+            <div className='main'>
                 <Routes>
                   <Route exact path="/" element={<Main1 />}/>
                   <Route path="/products" element={<Main2 />}/>
@@ -114,7 +114,7 @@ function App() {
                   <Route path="/login" element={<Login />}/>
                   <Route path="/basket" element={<Basket />} />
                 </Routes>
-            {/* </Router>       */}
+            </div>
             <Footer />
           </div>
         </Context.Provider>
